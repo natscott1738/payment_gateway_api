@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-f!#!9=fc(hzl(k!)*b#on@%)gl2ep9!8-t+=@0#n^%x7i)0-5&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'payment-gateway-api-1.onrender.com',
+]
 
 
 # Application definition
